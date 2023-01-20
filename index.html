@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Bala's Calculator</title>
+</head>
+<body>
+    <h1>Bala's Caluculator</h1>
+    <div id="calculator">
+        <input type="text" id="display">
+        <br>
+        <button id="clear" onclick="clearDisplay()">C</button>
+        <button id="backspace" onclick="backspace()">CE</button>
+        <button id="percentage" onclick="addToDisplay('%')">%</button>
+        <br>
+        <button id="seven" onclick="addToDisplay(7)">7</button>
+        <button id="eight" onclick="addToDisplay(8)">8</button>
+        <button id="nine" onclick="addToDisplay(9)">9</button>
+        <br>
+        <button id="four" onclick="addToDisplay(4)">4</button>
+        <button id="five" onclick="addToDisplay(5)">5</button>
+        <button id="six" onclick="addToDisplay(6)">6</button>
+        <br>
+        <button id="one" onclick="addToDisplay(1)">1</button>
+        <button id="two" onclick="addToDisplay(2)">2</button>
+        <button id="three" onclick="addToDisplay(3)">3</button>
+        <br>
+        <button id="zero" onclick="addToDisplay(0)">0</button>
+        <button id="decimal" onclick="addToDisplay('.')">.</button>
+        <button id="subtract" onclick="addToDisplay('-')">-</button>
+        
+        <button id="add" onclick="addToDisplay('+')">+</button>
+        <button id="divide" onclick="addToDisplay('/')">/</button>
+        <button id="multiply" onclick="addToDisplay('*')">*</button>
+        <button id="equals" onclick="calculate()">=</button>
+
+        
+      </div>
+      <script src="index.js"></script>     
+</body>
+</html>
